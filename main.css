@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h5{
+	font-weight: 400;
+}
+
+header nav {
+    width: auto;
+    height: auto;
+    align-items: center;
+    gap: 15px
+}
+
+header nav .btn-link {
+    text-decoration: none;
+}
+
+header nav .btn-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 5rem 10rem;
+}
+
+main h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+main p {
+    width: 55%;
+    text-align: center;
+}
+
+main section {
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section .card {
+    width: 300px;
+}
+
+.card button{
+	width: 90%;
+}
+
+main section .card-header {
+    justify-content: center;
+}
+
+main section .card-body {
+    align-items: center;
+}
+
+section{
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.card-text{
+	width: 80%;
+	margin-top: 10px;
+}
+main section .card-body h1 span {
+    color: grey;
+    font-size: 30px;
+	font-weight: 400;
+}
+
+.card-body h1{
+	font-weight: 500;
+	font-size: 35px;
+}
+.footer-wrapper{
+	width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 0 18rem;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer span{
+	color: grey;
+	font-size: small;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	text-decoration: underline grey;
+}
